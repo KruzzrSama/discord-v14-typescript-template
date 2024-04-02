@@ -135,6 +135,15 @@ export default class Ready extends Event {
 #### Başlamadan
 Projenin içerisinde `.env` dosyasını açın ve içerisini düzenleyin
 Database olarak MongoDB kullanılmıştır ve temeli atılmıştır database linki olmadan bot çalışmaz, eğer kaldırmak istiyorsanız, `src/shared/client.base.ts` içerisinde database'in çalışığı kısmı kaldırın, .then()'in içerisindeki kısmı silmemelisiniz o kısmı database.init'in dışarısına alın, artık `.env` dosyası içinde database url ve name belirtmeniz gerekmez fakat ownerid kısmına kendi discord id'nizi girin!
+#### Çalıştırma
+Proje dizininde açılmış olan terminale alttaki komut satırını yazın;
+```bash
+bun fs
+```
+veya
+```bash
+npm run fs
+```
 
 ### İletişim
 Discord: kruzzrsama
