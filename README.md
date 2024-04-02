@@ -1,7 +1,8 @@
 
 # TypeScript Discord v14 Bot
 
-TypesSript, PM2 ve discord.js v14 kullanarak yazılan ve geliştirmeye açık olan bir bot.
+TypesSript, PM2 ve discord.js v14 kullanarak yazılan ve geliştirmeye açık olan bir projedir.
+Bu proje içinde birden fazla botu aynı anda çalıştırabilir ve TypeScript'in nimetlerinden dilediğiniz gibi yararlanabilirsiniz!
 
 **Not**: Bu proje tam olarak bir bot sunmamaktadır, kişisel geliştirebileceğiniz bir altyapı sunmaktadır
 
