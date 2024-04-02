@@ -131,4 +131,9 @@ export default class Ready extends Event {
 
 Üstte olduğu gibi `commands` veya `events` klasörleri eğer botun içinde yoksa komut ve eventleri okumadan geçecektir, komut kullanmayacağınız botlarda direkt klasörü silin veya ismini değiştirin.
 
+#### Başlamadan
+Projenin içerisinde `.env` dosyasını açın ve içerisini düzenleyin
+Database olarak MongoDB kullanılmıştır ve temeli atılmıştır database linki olmadan bot çalışmaz, eğer kaldırmak istiyorsanız, `src/shared/client.base.ts` içerisinde database'in çalışığı kısmı kaldırın, .then()'in içerisindeki kısmı silmemelisiniz o kısmı database.init'in dışarısına alın, artık `.env` dosyası içinde database url ve name belirtmeniz gerekmez fakat ownerid kısmına kendi discord id'nizi girin!
 
+### İletişim
+Discord: kruzzrsama
