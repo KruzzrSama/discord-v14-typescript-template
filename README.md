@@ -146,4 +146,4 @@ npm run fs
 ```
 
 ### İletişim
-Discord: kruzzrsama
+mail: kruzzrsama@gmail.com
